@@ -1,0 +1,19 @@
+body{
+    background-color: tan;
+    font-size: 16px;
+}
+#tests{
+    display: block;
+}
+#first, h1{
+    text-align: center;
+    
+}
+#second{
+    font-size: 17px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    margin-right: 35px;
+}
