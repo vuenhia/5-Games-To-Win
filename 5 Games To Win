@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="Style/jsCSS.CSS">
+    <a href="Code/Index.HTML">Index</a>
+    <title>5 Games To Win</title>
+</head>
+
+<body>
+    <h1>5 Games To Win</h1>
+    <div id="heroName" class="hidden">Hero: No name</div>
+    <div id="text">Choose Your Class</div>
+    <div id="classSelect">
+        <button id="warriorButton" class="red" type="button">Warrior</button>
+        <button id="mageButton" type="button">Mage</button>
+    </div>
+    <div id="actions" class="hidden">
+        <button id="leftText" class="red" type="button"></button>
+        <button id="rightText" type="button"></button>
+    </div>
+    <div id="restart" class="hidden">
+        <div>You Win!</div>
+        <button id="restartButton" class="red" type="button">Restart</button>
+    </div>
+    <div id="stats" class="hidden">
+        <div class="statItems">
+            <div>
+                <p>Enemy Health</p>
+                <div id="enemyHealth">5</div>
+            </div>
+
+            <div>
+                <p>Your Health</p>
+                <div id="health">10</div>
+            </div>
+
+            <div>
+                <p>Deaths</p>
+                <div id="deathCounter">0</div>
+            </div>
+        </div>
+    </div>
+    <div id="missed" class="hidden">You Missed!</div>
+    <div id="enemyHit" class="hidden">You've Been Hit!</div>
+
+
+</body>
+<script src="Code/Java.JS"></script>
+
+
+</script>
+
+</html>
