@@ -1,0 +1,77 @@
+body {
+	background-color: #292c30;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+a {
+	font-size: 20px;
+	color: yellow;
+}
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+.hidden {
+	display: none;
+}
+p {
+	text-decoration: underline;
+	font-size: 25px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#text {
+	font-size: 35px;
+	padding-bottom: 20px;
+}
+#health {
+	font-size: 30px;
+}
+#deathCounter {
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+#enemyHealth {
+	font-size: 30px;
+	padding-top: 10px;
+}
+button {
+	font-size: 20px;
+	margin: 4px;
+	background-color: lightblue;
+	padding: 5px 10px;
+	border-style: outset;
+	border-color: white;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: aqua;
+}
+
+button.red {
+	background-color: darkred;
+}
+
+button.red:hover {
+	background-color: red;
+}
+
+#missed,
+#enemyHit {
+	font-size: 20px;
+	color: red;
+}
+
+.statItems {
+	display: flex;
+	width: 600px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
